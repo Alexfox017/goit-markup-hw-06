@@ -151,6 +151,9 @@
   .footer-logo {
     text-align: left;
   }
+  .container-form-title {
+    text-align: left;
+  }
   .container-form {
     align-items: flex-start;
   }
