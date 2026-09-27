@@ -27,6 +27,11 @@
           <a class="header-logo" href="./index.html">
             <span class="accent">Web</span>Studio</a
           >
+          <button class="mobile-menu-btn" type="button">
+            <svg class="mobile-menu-btn-icon" width="24" height="24">
+              <use href="./images/icons.svg#burger-menu1"></use>
+            </svg>
+          </button>
           <nav class="header-nav">
             <ul class="header-menu">
               <li class="header-menu-item">
@@ -132,7 +137,8 @@
             <li class="team-item">
               <img
                 class="team-img"
-                src="./images/team-1.png"
+                srcset="./images/team-1.png 1x, ./images/team-1@2x.png 2x"
+                src="./images/team-1.png  "
                 alt="Mark Guerrero"
                 width="264"
               />
@@ -143,7 +149,7 @@
                   <li class="team-soc-item">
                     <a href="https://instagram.com" class="team-soc-link">
                       <svg class="team-soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#illustration"></use>
+                        <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
@@ -174,6 +180,10 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="
+                  ./images/revewies/team-2.png    1x,
+                  ./images/revewies/team-2@2x.png 2x
+                "
                 src="./images/team-2.png"
                 alt="Tom Ford"
                 width="264"
@@ -185,7 +195,7 @@
                   <li class="team-soc-item">
                     <a href="https://instagram.com" class="team-soc-link">
                       <svg class="team-soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#illustration"></use>
+                        <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
@@ -216,6 +226,10 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="
+                  ./images/revewies/team-3.png    1x,
+                  ./images/revewies/team-3@2x.png 2x
+                "
                 src="./images/team-3.png"
                 alt="Camila Garcia"
                 width="264"
@@ -227,7 +241,7 @@
                   <li class="team-soc-item">
                     <a href="https://instagram.com" class="team-soc-link">
                       <svg class="team-soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#illustration"></use>
+                        <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
@@ -258,6 +272,10 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="
+                  ./images/revewies/team-4.png    1x,
+                  ./images/revewies/team-4@2x.png 2x
+                "
                 src="./images/team-4.png"
                 alt="Daniel Wilson"
                 width="264"
@@ -269,7 +287,7 @@
                   <li class="team-soc-item">
                     <a href="https://instagram.com" class="team-soc-link">
                       <svg class="team-soc-icon" width="16" height="16">
-                        <use href="./images/icons.svg#illustration"></use>
+                        <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
@@ -309,6 +327,10 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-illu"
+                  srcset="
+                    ./images/portfolio-1.jpg    1x,
+                    ./images/portfolio-1@2x.jpg 2x
+                  "
                   src="./images/portfolio-1.jpg"
                   width="360"
                   height="300"
@@ -329,6 +351,10 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-illu"
+                  srcset="
+                    ./images/portfolio/portfolio-2.png    1x,
+                    ./images/portfolio/portfolio-2@2x.png 2x
+                  "
                   src="./images/portfolio-2.jpg"
                   width="360"
                   height="300"
@@ -349,6 +375,10 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-illu"
+                  srcset="
+                    ./images/portfolio/portfolio-3.png    1x,
+                    ./images/portfolio/portfolio-3@2x.png 2x
+                  "
                   src="./images/portfolio-3.jpg"
                   width="360"
                   height="300"
@@ -369,6 +399,10 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-illu"
+                  srcset="
+                    ./images/portfolio/portfolio-4.png    1x,
+                    ./images/portfolio/portfolio-4@2x.png 2x
+                  "
                   src="./images/portfolio-4.jpg"
                   width="360"
                   height="300"
@@ -389,6 +423,10 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-illu"
+                  srcset="
+                    ./images/portfolio/portfolio-5.png    1x,
+                    ./images/portfolio/portfolio-5@2x.png 2x
+                  "
                   src="./images/portfolio-5.jpg"
                   width="360"
                   height="300"
@@ -409,6 +447,10 @@
               <div class="portfolio-thumb">
                 <img
                   class="portfolio-illu"
+                  srcset="
+                    ./images/portfolio/portfolio-6.png    1x,
+                    ./images/portfolio/portfolio-6@2x.png 2x
+                  "
                   src="./images/portfolio-6.jpg"
                   width="360"
                   height="300"
@@ -447,7 +489,7 @@
             <li class="team-soc-item">
               <a href="" class="team-soc-link footer-soc-link">
                 <svg class="team-soc-icon" width="24" height="24">
-                  <use href="./images/icons.svg#illustration"></use>
+                  <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
@@ -495,6 +537,76 @@
         </div>
       </div>
     </footer>
+    <!-- Modal menu mobile -->
+    <div class="mobile-menu" id="mobile-menu">
+      <div class="mobile-menu-container">
+        <button class="mobile-menu-button">
+          <svg class="mobile-menu-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-navigation">
+          <ul class="mobile-menu-list">
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link active" href="#">Features</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a href="#" class="mobile-menu-link">Team</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a href="#" class="mobile-menu-link">Portfolio</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="mobile-menu-address">
+          <ul class="mobile-menu-contact">
+            <li class="mobile-menu-contact-item">
+              <a class="mobile-menu-contact-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-menu-contact-item">
+              <a
+                class="mobile-menu-contact-link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+
+        <ul class="team-soc-list menu-soc">
+          <li class="team-soc-item">
+            <a href="https://instagram.com" class="team-soc-link">
+              <svg class="team-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-soc-item">
+            <a href="https://twitter.com" class="team-soc-link">
+              <svg class="team-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-soc-item">
+            <a href="https://facebook.com" class="team-soc-link">
+              <svg class="team-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-soc-item">
+            <a href="https://linkedin.com" class="team-soc-link">
+              <svg class="team-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <!-- MODAL WINDOW -->
     <div class="backdrop" id="modal">
       <div class="modal">
