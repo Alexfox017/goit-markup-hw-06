@@ -175,7 +175,12 @@
   .footer-social-text {
     text-align: left;
   }
+
+  .footer-soc-list {
+    justify-content: flex-start;
+  }
 }
+
 @media only screen and (min-width: 1158px) {
   .footer {
     padding: 100px 0;
