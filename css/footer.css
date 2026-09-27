@@ -52,6 +52,7 @@
 
 .footer-soc-list {
   display: flex;
+  justify-content: center;
   gap: 16px;
 }
 
@@ -148,6 +149,7 @@
     justify-content: flex-start;
     padding: 0 108px;
   }
+
   .footer-logo {
     text-align: left;
   }
@@ -155,14 +157,21 @@
   .container-form {
     align-items: flex-start;
   }
+
+  .container-form-title {
+    text-align: left;
+  }
+
   .footer-form {
     flex-direction: row;
     gap: 24px;
   }
+
   .footer-form-input {
     width: 264px;
     max-width: none;
   }
+
   .footer-social-text {
     text-align: left;
   }
